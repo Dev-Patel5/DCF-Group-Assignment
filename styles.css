@@ -1,0 +1,149 @@
+html{
+    background-color: #8D9EFF;
+    color: #F9F9F9;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    background: linear-gradient(to right, #3700a5, #7600c5, #7600c5, #3700a5);
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding-top: 60px;
+    text-align: center;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  h1,
+  h2 {
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    padding-top: 60px;
+    font-size: 42px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  h2 {
+    font-size: 32px;
+    color: #64ed82;
+    font-weight: 800;
+  }
+  
+  p {
+    font-size: 22px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    background-color: #FB2576;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+  }
+  
+  .nav a {
+    color: #FEFCF3;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .nav a:hover {
+    color: #323232;
+    font-size: 24px;
+    font-weight: bolder;
+    transition: all 0.4s ease-in-out;
+  }
+  
+  h1:hover {
+    font-size:48px;
+    color: #f60461;
+    text-shadow: 4px 4px #64ed82;
+    animation: glow 1s ease-in-out infinite;
+    transition: all .5s ease-in-out;
+  }
+  @keyframes glow {
+    from {
+      box-shadow: 0 0 15px #f60461;
+    }
+    to {
+      box-shadow: 0 0 25px #f60461;
+    }
+  }
+  h2:hover{
+    font-size: 36px;
+    color: #14e541;
+    font-weight: bolder;
+    text-shadow: 3px 3px #222222;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  
+  
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    color: #fff;
+    font-size: larger;
+    font-family: sans-serif;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+  }
+  
+  th {
+    background-color: #222222;
+    color: #7dec95;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: #FB2576;
+    color: #222222;
+    color: #fcf8f8;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #FB2576;
+    color: #fcf8f8;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  .abt{
+    text-align: center;
+    font-size: 30px;
+    color: #f60461;
+    text-shadow:1px 1px #64ed82;
+  }
+  .last{
+    background-color: #222222;
+  }

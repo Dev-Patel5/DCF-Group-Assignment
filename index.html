@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Internet Group Management Protocol (IGMP)</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Ubuntu&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/32cf291751.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="./image/favicon.png" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Oswald&family=Ubuntu&display=swap" rel="stylesheet">
+    <title>Internet Group Management Protocol</title>
+
+    <nav class="nav">
+
+          <a href="#igmp"> <i class="fa-sharp fa-solid fa-house"></i> IGMP</a>
+            <a href="#cast"> <i class="fa-sharp fa-solid fa-c"></i> Casting</a>
+            <a href="#snoop"> <i class="fa-sharp fa-solid fa-hat-cowboy"></i> Snooping</a>
+            <a href="#net"> <i class="fa-solid fa-network-wired"></i> Network</a>
+            <a href="#ipv"> <i class="fa-solid fa-wifi"></i> IPV</a>
+            <a href="#conc"> <i class="fa-solid fa-sheet-plastic"></i> Conclusion </a>
+            <a href="#ref"> <i class="fa-solid fa-bookmark"></i> References</a>
+            <a href="#navf"> <i class="fa-solid fa-people-group"></i> About</a>
+    </nav>
+  </head>
+
+  <body>
+    <header class="igmp" id="igmp"><br>
+      <h1>Internet Group Management Protocol (IGMP)</h1>
+    </header>
+
+    <main class="website">
+<!-- igmp -->
+      <section class="igmp" id="igmp">
+  
+        <h2 >What is IGMP?</h2><br>
+        <p>
+          The Internet Group Management Protocol (IGMP) is a communications
+          protocol used by hosts and adjacent routers on IPv4 networks to
+          establish multicast group memberships. A protocol which is for sharing
+          an IP address among multiple devices so they can receive the same data.
+          Internet Protocol version 4 (IPv4) networks use IGMP to configure
+          multicasting at the network layer. The IGMP protocol enables devices
+          to join multicast groups.
+        </p><br>
+        <h2>How does IGMP work?</h2><br>
+        <p>
+          IGMP is an integral part of IP multicast and allows the network to
+          direct multicast transmissions only to hosts that have requested them.
+          IGMP can be used for one-to-many networking applications such as online
+          streaming video and gaming, and allows more efficient use of resources
+          when supporting these types of applications.
+        </p><br>
+        <h2>Types of IGMP?</h2><br>
+        <p>
+          IGMP can be used for one-to-many networking applications such as online
+          streaming video and gaming, and allows more efficient use of resources
+          when supporting these types of applications.
+        </p>
+      </section>
+<!-- multicasting -->
+      <section class="cast" id="cast"><br><br><br><br>
+<h1>Multicasting</h1><br>
+<h2>Multicasting: Defination, Uses & Examples</h2><br>
+        <p>
+          The term multicasting refers to the sharing of messages or packets
+          among a group of devices. IP addresses are shared between devices using
+            multicasting.In networking, multicasting refers to the process of sending a single message or packet to multiple recipients at the same time.
+
+            Multicasting is useful in situations where you want to send the same message or data to multiple recipients simultaneously, but you don't want to send separate copies of the message to each recipient. This can help to save bandwidth and improve the efficiency of the network.
+            
+            For example, multicasting can be used in video streaming applications to send the same video stream to multiple viewers at the same time, without having to send separate copies of the stream to each viewer. It can also be used in online gaming to send data to multiple players in a game simultaneously, or in other real-time communication applications.
+            
+            To use multicasting, the sender and recipients must be part of the same multicast group. Below are some other castings that contrast with multicasting.
+        </p><br>
+        <h2>BroadCast, Anycast and Unicast</h2><br>
+        <p><strong>Broadcast: </strong> Networked communication with a single sender and several recipients is said to be the broadcast addressing.</p>
+        <p><strong>Anycast: </strong> Messages are routed to a single device within a certain group of devices using anycast addressing.</p>
+        <p><strong>Unicast: </strong> The unicast addressing system states that network communication only involves one source and one recipient.</p>
+  </section>
+<!-- snooping -->
+      <section class="snoop" id="snoop"><br><br><br><br>
+        <h1>Snooping</h1><br>
+
+           <h2>What is Snooping</h2><br>
+           <p>The reason these networking standards and protocols are put in to place is to ensure that computer manufacturers use the same protocols and standards in their devices, which makes computer networking easier and makes life easier for everyone including developers, admins, support staff but most importantly end users and customers.</p><br>          </p>
+           <h2>Relation to IGMP</h2><br>
+<p>In order to provide effective multicast routing on a network, IGMP and snooping cooperate. Snooping is a technique used by the network's switches and routers to track IGMP traffic and determine which hosts have joined which multicast groups. Instead of broadcasting the multicast packets to every device on the network, this information is then utilised to forward the packets just to the receivers who have asked for them.</p><br>
+           <h2>Spoofing & other Method</h2><br>
+           
+           <p>Spoofing is the purposeful falsification of data sent to your caller ID display by a caller to hide their identity.
+              The types of snooping methods and tools can vary widely, including the following:
+             <br> Keylogger, man-in-the-middle network snooping, packet capture or sniffer, employee performance monitoring, telephone wiretaps, audio/video surveillance and many more.</p>
+      </section>
+<!-- networks -->
+      <section class="net" id="net"><br><br><br><br>
+     <h1>Networking</h1><br>
+     <h2>Functionality</h2><br>
+     <p>Networked devices such as computers and routers use IGMP when joining multicast groups. A router that implements IGMP can identify the devices in a multicast group by listening to their IGMP messages.
+      In IGMP, IP addresses designated for multicasting are used. Multiplecast addresses range from 224.0.0.0 to 239.255.255.255. There are two IP addresses shared by each multicast group (anycast networks can use any IP address). The router will make copies of each packet it receives that is destined for the shared IP address and send them to each member of the multicast group.
+      It is possible to modify IGMP multicast groups dynamically. A gadget may issue an IGMP "join group" request or at any time a "leave group" message.
+      Directly built upon Internet Protocol, IGMP (IP). Both an IGMP header and an IP header are present in every IGMP packet. IGMP does not utilise a transport layer protocol like TCP or UDP, much like ICMP does not.</p><br>
+
+     <h2>Networks and Topologies</h2><br>
+<p><strong>Types of network:</strong> 
+  Local Area Network (LAN), Metropolitan Area Network (MAN), Wide Area Network (WAN), Wireless Local Area Network (WLAN), Controller Area Network (CAN), Desk Area Network (DAN), Personal Area Network (PAN).</p>
+  <p><br>
+<strong>
+      Topologies:
+
+</strong>    Bus topology,   Star topology,
+  Tree topology,
+  Mesh topology and more modern ones like cluster, etc.
+  </p> 
+  </section>
+<!-- ipv -->
+      <section class="ipv" id="ipv"><br><br><br><br>
+<h1>Internet Protocol version (IPV)</h1><br>
+<h2>Internet Protocol (IP)</h2><br>
+<p>A set of guidelines called the Internet Protocol (IP) assists in rerouting data packets across networks so they may get to where they're supposed to.
+
+  A computer divides the information into smaller units, known as packets, before delivering it. Each packet contains the IP address to make sure it is delivered to the right place.</p><br>
+<h2>IPV4 and IPV6</h2><br>
+<p>The two versions of the Internet Protocol (IP), the main protocol for delivering data over the internet, are IPv4 and IPv6.
+
+  The fourth iteration of the original 1981-define IP protocol is known as IPv4. It can support up to 4.3 billion different addresses and uses 32-bit addresses. The most used IP protocol is IPv4, which is supported by the majority of networking hardware and internet service providers.
+  
+  Contrarily, IPv6 is the most current and sixth iteration of the 1998-define IP protocol. It makes use of 128-bit addresses and supports almost an infinite number of different addresses. IPv6 is gradually replacing IPv4 in order to address the rising issue of IPv4 address depletion.IPv6 is being gradually embraced by internet service providers and networking equipment suppliers in order to solve the rising issue of IPv4 address depletion.
+
+
+  Despite the fact that IPv4 and IPv6 are both used to transmit data over the internet, IPv6 is regarded as IPv4's replacement and is likely to happen sooner rather than later. This is because IPv6 has a significantly bigger address space and offers more features and advancements than IPv4, such as support for autoconfiguration and enhanced security. Although it may take some time to complete, the switch from IPv4 to IPv6 will be gradual.</p>
+
+      </section>
+<!-- conclusion -->
+      <section class="conc" id="conc"><br><br><br><br>
+        <h1>Conclusion</h1><br>
+        <h2>Summary</h2><br>
+        <p>IGMP is a protocol used to inform multicast routers of whether or not hosts are 
+          interested in receiving traffic for a multicast group. The router uses the 
+          information obtained from IGMP to determine whether of not to build a
+          tree with its multicast routing protocol. There are currently 3 versions of IGMP, 1 
+          2 and 3, with newer versions backwards compatible with previous versions. Without this the Internet is harder to access, maintain & manage. </p><br>
+          <h2>Overview</h2><br>
+<p> We three also get the significance of IGMP after working on this assignment.<br>To know that it is essential for the world wide web and internet to work and operate properly.<br> This also taught us about the internet in general, networking and diffrent topologies, cyberattacks and more.<br> This also covers most of the data communication fundamentals which is the whole point of taking this course. </p><br>
+<h2>Future</h2><br>
+<p>Overall, the future of the internet is expected to be exciting and dynamic, with new technologies and innovations driving the growth and evolution of the internet.</p>
+</section>
+<!-- refrences -->
+      <section class="ref" id="ref"><br><br><br><br>
+        <h1>References</h1><br>
+        <p>
+        <strong>Wikipedia Page IGMP (February, 2022) - The free Encyclopedia.</strong><br><br>
+         <a style=color:#00ff3c href="https://en.wikipedia.org/wiki/Internet_Group_Management_Protocol" target="_blank">https://en.wikipedia.org/wiki/Internet_Group_Management_Protocol</a><br>
+         <br><strong>Froehlich A.(2021) Snooping Definition - West Gate Networks.</strong><br><br>
+         <a style=color:#00ff3c href="https://www.techtarget.com/searchsecurity/definition/snooping"target="_blank">https://www.techtarget.com/searchsecurity/definition/snooping</a><br>
+         <br><strong>Sean (December 1, 2015) Computer Networks - Answer kids, United Kingdoms.</strong><br><br>
+         <a style=color:#00ff3c href="https://www.answerkid.co.uk/different-types-networks-standards-protocols-available/"target="_blank">https://www.answerkid.co.uk/different-types-networks-standards-protocols-available/</a><br>
+         <br> <strong>Duo M. (December 5, 2022) Kinsta - Internet Protocol</strong><br><br>
+         <a style=color:#00ff3c href="https://kinsta.com/blog/ipv4-vs-ipv6/"target="_blank">https://kinsta.com/blog/ipv4-vs-ipv6/</a><br>
+        </p><br>
+      </section>
+
+    </main>
+
+  <footer>
+    <nav class="navf" id="navf">
+      <h1>About</h1><br><br><br><br><br><br>
+     <p class="abt">This website is the result of the work of three student (Dev, Mann and Heet) as a group assignment for the subject Data Communication Fundamentals (DCF) in Computer Programming at Seneca College.<br> Thank You for Visiting.</p><br><br><br><br><br><br><br>
+<table>
+    <tr>
+      <strong>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Student ID</th>
+          <th>Contributions</th>
+      </strong>
+    </tr>
+    <tr>
+      <td>Dev Vimal Patel</td>
+      <td>dpatel460@myseneca.ca</td>
+      <td>160882213</td>
+      <td>Website Design, Written Report</td>
+    </tr>
+    <tr>
+      <td>Mann Manishkumar Patel</td>
+      <td>mpatel462@myseneca.ca</td>
+      <td>164282212</td>
+      <td>Website Hosting, Referencing</td>
+    </tr>
+    <tr>
+      <td>Heet Vijaykumar Patel</td>
+      <td>hpatel327@myseneca.ca</td>
+      <td>167461219</td>
+      <td>Research Material, Written Report</td>
+    </tr>
+    <tr class="last"><td></td><td></td><td></td><td></td></tr>
+  </table>
+  
+  </nav>
+  </footer>
+  </body>
+
+</html>
